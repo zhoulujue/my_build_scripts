@@ -13,7 +13,9 @@ libavformat/rtpenc_jpeg.o: src/libavformat/rtpenc_jpeg.c \
   src/libavcodec/jpegtables.h src/libavcodec/internal.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
   src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavformat/rtpenc.h \
-  src/libavformat/avformat.h src/libavformat/avio.h \
-  src/libavformat/version.h src/libavformat/rtp.h
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavformat/rtpenc.h src/libavformat/avformat.h \
+  src/libavformat/avio.h src/libavformat/version.h src/libavformat/rtp.h

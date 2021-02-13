@@ -9,7 +9,10 @@ libavcodec/svq1enc.o: src/libavcodec/svq1enc.c src/libavcodec/avcodec.h \
   src/libavutil/intfloat.h src/libavutil/mathematics.h \
   src/libavutil/rational.h src/libavutil/buffer.h \
   src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/hpeldsp.h src/libavcodec/me_cmp.h \
   src/libavcodec/mpegvideo.h src/libavcodec/blockdsp.h \
   src/libavcodec/error_resilience.h src/libavcodec/thread.h \
@@ -27,5 +30,6 @@ libavcodec/svq1enc.o: src/libavcodec/svq1enc.c src/libavcodec/avcodec.h \
   src/libavcodec/parser.h src/libavcodec/mpegutils.h \
   src/libavcodec/mpeg12data.h src/libavcodec/rl.h \
   src/libavcodec/videodsp.h src/libavutil/opt.h src/libavutil/timecode.h \
-  src/libavcodec/h263.h src/libavcodec/h263data.h src/libavcodec/svq1.h \
+  src/libavcodec/h263.h src/libavcodec/h263data.h \
+  src/libavcodec/packet_internal.h src/libavcodec/svq1.h \
   src/libavcodec/svq1enc.h src/libavcodec/svq1enc_cb.h

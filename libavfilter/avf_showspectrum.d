@@ -11,12 +11,15 @@ libavfilter/avf_showspectrum.o: src/libavfilter/avf_showspectrum.c \
   src/libavutil/fifo.h src/libavutil/samplefmt.h \
   src/libavutil/avassert.h src/libavutil/avstring.h \
   src/libavutil/channel_layout.h src/libavutil/opt.h \
-  src/libavutil/xga_font_data.h src/libavfilter/audio.h \
-  src/libavfilter/avfilter.h src/libavutil/buffer.h \
-  src/libavutil/frame.h src/libavfilter/version.h \
+  src/libavutil/parseutils.h src/libavutil/xga_font_data.h \
+  src/libavfilter/audio.h src/libavfilter/avfilter.h \
+  src/libavutil/buffer.h src/libavutil/frame.h src/libavfilter/version.h \
   src/libavfilter/internal.h src/libavfilter/formats.h \
   src/libavfilter/framepool.h src/libavfilter/framequeue.h \
   src/libavfilter/thread.h src/libavfilter/video.h \
   src/libavcodec/avcodec.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/internal.h \
-  src/libavfilter/window_func.h
+  src/libavcodec/bsf.h src/libavcodec/codec_id.h \
+  src/libavcodec/codec_par.h src/libavcodec/packet.h \
+  src/libavcodec/version.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h src/libavcodec/internal.h \
+  src/libavfilter/filters.h src/libavfilter/window_func.h

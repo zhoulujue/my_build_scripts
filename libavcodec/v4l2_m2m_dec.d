@@ -10,7 +10,10 @@ libavcodec/v4l2_m2m_dec.o: src/libavcodec/v4l2_m2m_dec.c \
   src/libavutil/mathematics.h src/libavutil/samplefmt.h \
   src/libavcodec/avcodec.h src/libavutil/buffer.h \
   src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
-  src/libavcodec/decode.h src/libavcodec/v4l2_context.h \
-  src/libavcodec/v4l2_buffers.h src/libavcodec/v4l2_m2m.h \
-  src/libavcodec/v4l2_fmt.h
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/decode.h src/libavcodec/internal.h \
+  src/libavcodec/v4l2_context.h src/libavcodec/v4l2_buffers.h \
+  src/libavcodec/v4l2_m2m.h src/libavcodec/v4l2_fmt.h

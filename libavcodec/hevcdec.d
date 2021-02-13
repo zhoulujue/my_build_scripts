@@ -17,7 +17,10 @@ libavcodec/hevcdec.o: src/libavcodec/hevcdec.c src/libavutil/attributes.h \
   src/libavcodec/put_bits.h src/libavcodec/aarch64/cabac.h \
   src/libavcodec/golomb.h src/libavcodec/get_bits.h \
   src/libavcodec/avcodec.h src/libavutil/channel_layout.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h \
   src/libavcodec/hevc.h src/libavcodec/hevc_data.h \
   src/libavcodec/hevc_parse.h src/libavcodec/hevc_ps.h \
@@ -25,5 +28,5 @@ libavcodec/hevcdec.o: src/libavcodec/hevcdec.c src/libavutil/attributes.h \
   src/libavcodec/hevcpred.h src/libavcodec/h2645_parse.h \
   src/libavcodec/hevcdsp.h src/libavcodec/internal.h \
   src/libavcodec/thread.h src/libavcodec/videodsp.h \
-  src/libavcodec/hwaccel.h src/libavcodec/hwaccels.h \
+  src/libavcodec/hwconfig.h src/libavcodec/hwaccels.h \
   src/libavcodec/profiles.h

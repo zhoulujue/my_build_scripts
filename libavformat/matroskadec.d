@@ -16,7 +16,10 @@ libavformat/matroskadec.o: src/libavformat/matroskadec.c config.h \
   src/libavcodec/bytestream.h src/libavutil/avassert.h \
   src/libavcodec/flac.h src/libavcodec/avcodec.h \
   src/libavutil/channel_layout.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/get_bits.h \
+  src/libavcodec/bsf.h src/libavcodec/codec_id.h \
+  src/libavcodec/codec_par.h src/libavcodec/packet.h \
+  src/libavcodec/version.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h src/libavcodec/get_bits.h \
   src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h \
   src/libavcodec/mpeg4audio.h src/libavcodec/internal.h \
   src/libavcodec/put_bits.h src/libavformat/avformat.h \
@@ -24,7 +27,8 @@ libavformat/matroskadec.o: src/libavformat/matroskadec.c config.h \
   src/libavformat/avio_internal.h src/libavformat/url.h \
   src/libavformat/internal.h src/libavutil/bprint.h \
   src/libavformat/os_support.h src/libavformat/isom.h \
-  src/libavutil/stereo3d.h src/libavformat/dv.h \
-  src/libavformat/matroska.h src/libavformat/metadata.h \
-  src/libavformat/oggdec.h src/libavformat/riff.h \
-  src/libavformat/rmsipr.h src/libavformat/qtpalette.h
+  src/libavutil/encryption_info.h src/libavutil/stereo3d.h \
+  src/libavformat/dv.h src/libavformat/matroska.h \
+  src/libavformat/metadata.h src/libavformat/oggdec.h \
+  src/libavformat/riff.h src/libavformat/rmsipr.h \
+  src/libavformat/qtpalette.h

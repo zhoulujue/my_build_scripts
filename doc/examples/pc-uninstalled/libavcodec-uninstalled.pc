@@ -1,12 +1,12 @@
 prefix=
 exec_prefix=
 libdir=${pcfiledir}/../../../libavcodec
-includedir=/Users/lujuezhou/Developer/CodeOnGithub/FFmpeg
+includedir=src
 
 Name: libavcodec
 Description: FFmpeg codec library
-Version: 58.18.100
-Requires:  libswresample >= 3.1.100,  libavutil >= 56.14.100
+Version: 58.91.100
+Requires:  libswresample >= 3.7.100,  libavutil >= 56.51.100
 Conflicts:
 Libs: -L${libdir} -Wl,-rpath,${libdir} -lavcodec 
 Cflags: -I${includedir}

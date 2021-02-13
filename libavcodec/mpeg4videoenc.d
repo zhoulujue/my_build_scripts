@@ -11,7 +11,10 @@ libavcodec/mpeg4videoenc.o: src/libavcodec/mpeg4videoenc.c \
   src/libavcodec/mpegutils.h src/libavutil/frame.h \
   src/libavutil/buffer.h src/libavcodec/avcodec.h \
   src/libavutil/channel_layout.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/mpegvideo.h \
+  src/libavcodec/bsf.h src/libavcodec/codec_id.h \
+  src/libavcodec/codec_par.h src/libavcodec/packet.h \
+  src/libavcodec/version.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h src/libavcodec/mpegvideo.h \
   src/libavcodec/blockdsp.h src/libavcodec/error_resilience.h \
   src/libavcodec/me_cmp.h src/libavcodec/thread.h \
   src/libavcodec/fdctdsp.h src/libavcodec/get_bits.h \
@@ -29,4 +32,4 @@ libavcodec/mpeg4videoenc.o: src/libavcodec/mpeg4videoenc.c \
   src/libavcodec/mpeg12data.h src/libavcodec/rl.h \
   src/libavcodec/videodsp.h src/libavutil/timecode.h \
   src/libavcodec/h263.h src/libavcodec/h263data.h \
-  src/libavcodec/mpeg4video.h
+  src/libavcodec/mpeg4video.h src/libavcodec/profiles.h

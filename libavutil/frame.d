@@ -8,4 +8,5 @@ libavutil/frame.o: src/libavutil/frame.c src/libavutil/channel_layout.h \
   src/libavutil/pixfmt.h src/libavutil/libm.h src/libavutil/intfloat.h \
   src/libavutil/mathematics.h src/libavutil/rational.h \
   src/libavutil/buffer.h src/libavutil/frame.h src/libavutil/samplefmt.h \
-  src/libavutil/imgutils.h src/libavutil/pixdesc.h
+  src/libavutil/imgutils.h src/libavutil/pixdesc.h \
+  src/libavutil/hwcontext.h

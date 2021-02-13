@@ -9,9 +9,13 @@ libavcodec/h2645_parse.o: src/libavcodec/h2645_parse.c config.h \
   src/libavutil/pixfmt.h src/libavutil/libm.h src/libavutil/intfloat.h \
   src/libavutil/mathematics.h src/libavutil/rational.h \
   src/libavcodec/bytestream.h src/libavutil/avassert.h \
-  src/libavcodec/hevc.h src/libavcodec/h2645_parse.h \
+  src/libavcodec/hevc.h src/libavcodec/h264.h \
+  src/libavcodec/h2645_parse.h src/libavutil/buffer.h \
   src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
-  src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/get_bits.h \
-  src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h
+  src/libavutil/channel_layout.h src/libavutil/frame.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/get_bits.h src/libavcodec/mathops.h \
+  src/libavutil/reverse.h src/libavcodec/vlc.h

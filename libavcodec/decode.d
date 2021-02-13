@@ -10,10 +10,13 @@ libavcodec/decode.o: src/libavcodec/decode.c config.h \
   src/libavutil/avstring.h src/libavutil/bprint.h src/libavutil/frame.h \
   src/libavutil/buffer.h src/libavutil/samplefmt.h \
   src/libavutil/hwcontext.h src/libavutil/imgutils.h \
-  src/libavutil/pixdesc.h src/libavcodec/avcodec.h \
-  src/libavutil/channel_layout.h src/libavcodec/version.h \
+  src/libavutil/pixdesc.h src/libavutil/opt.h src/libavcodec/avcodec.h \
+  src/libavutil/channel_layout.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/bytestream.h src/libavutil/intreadwrite.h \
   src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
-  src/libavcodec/decode.h src/libavcodec/hwaccel.h \
+  src/libavcodec/decode.h src/libavcodec/hwconfig.h \
   src/libavcodec/hwaccels.h src/libavcodec/internal.h \
   src/libavcodec/thread.h

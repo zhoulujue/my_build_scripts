@@ -11,9 +11,13 @@ libavformat/dump.o: src/libavformat/dump.c src/libavutil/channel_layout.h \
   src/libavutil/intreadwrite.h src/libavutil/bswap.h \
   src/libavutil/aarch64/bswap.h \
   src/libavutil/mastering_display_metadata.h src/libavutil/frame.h \
-  src/libavutil/buffer.h src/libavutil/samplefmt.h src/libavutil/opt.h \
-  src/libavutil/avstring.h src/libavutil/replaygain.h \
-  src/libavutil/spherical.h src/libavutil/stereo3d.h \
-  src/libavformat/avformat.h src/libavcodec/avcodec.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
-  src/libavformat/avio.h src/libavformat/version.h
+  src/libavutil/buffer.h src/libavutil/samplefmt.h \
+  src/libavutil/dovi_meta.h src/libavutil/opt.h src/libavutil/avstring.h \
+  src/libavutil/replaygain.h src/libavutil/spherical.h \
+  src/libavutil/stereo3d.h src/libavformat/avformat.h \
+  src/libavcodec/avcodec.h src/libavutil/hwcontext.h \
+  src/libavcodec/bsf.h src/libavcodec/codec_id.h \
+  src/libavcodec/codec_par.h src/libavcodec/packet.h \
+  src/libavcodec/version.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h src/libavformat/avio.h \
+  src/libavformat/version.h

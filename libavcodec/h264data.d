@@ -9,7 +9,10 @@ libavcodec/h264data.o: src/libavcodec/h264data.c src/libavutil/avutil.h \
   src/libavutil/rational.h src/libavcodec/avcodec.h \
   src/libavutil/samplefmt.h src/libavutil/buffer.h \
   src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/h264dec.h src/libavutil/intreadwrite.h \
   src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
   src/libavutil/thread.h src/libavcodec/cabac.h \

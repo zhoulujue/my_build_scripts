@@ -12,9 +12,11 @@ libavcodec/hevcdsp.o: src/libavcodec/hevcdsp.c src/libavcodec/hevcdsp.h \
   src/libavutil/aarch64/bswap.h src/libavutil/avassert.h \
   src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/mathops.h \
-  src/libavutil/reverse.h src/libavcodec/vlc.h \
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h \
   src/libavcodec/hevcdsp_template.c src/libavcodec/hevcdec.h \
   src/libavutil/md5.h src/libavcodec/bswapdsp.h src/libavcodec/cabac.h \
   src/libavcodec/put_bits.h src/libavcodec/hevcpred.h \

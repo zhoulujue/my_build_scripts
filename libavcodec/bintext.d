@@ -11,6 +11,9 @@ libavcodec/bintext.o: src/libavcodec/bintext.c \
   src/libavutil/cpu.h src/libavutil/dict.h src/libavutil/libm.h \
   src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/cga_data.h \
-  src/libavcodec/bintext.h src/libavcodec/internal.h
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/cga_data.h src/libavcodec/bintext.h \
+  src/libavcodec/internal.h

@@ -11,11 +11,16 @@ libavformat/aiffdec.o: src/libavformat/aiffdec.c \
   src/libavutil/log.h src/libavutil/aarch64/timer.h src/libavutil/cpu.h \
   src/libavutil/pixfmt.h src/libavutil/libm.h src/libavutil/buffer.h \
   src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavformat/avio.h src/libavformat/version.h \
   src/libavformat/internal.h src/libavutil/bprint.h \
   src/libavutil/avstring.h src/libavformat/os_support.h \
   src/libavformat/pcm.h src/libavformat/aiff.h src/libavformat/isom.h \
+  src/libavutil/encryption_info.h \
   src/libavutil/mastering_display_metadata.h src/libavutil/spherical.h \
   src/libavutil/stereo3d.h src/libavformat/dv.h src/libavformat/id3v2.h \
-  src/libavformat/metadata.h src/libavformat/mov_chan.h
+  src/libavformat/metadata.h src/libavformat/mov_chan.h \
+  src/libavformat/replaygain.h

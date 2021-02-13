@@ -14,17 +14,22 @@ libavformat/mov.o: src/libavformat/mov.c src/libavutil/attributes.h \
   src/libavutil/aes.h src/libavutil/aes_ctr.h src/libavutil/pixdesc.h \
   src/libavutil/sha.h src/libavutil/spherical.h src/libavutil/stereo3d.h \
   src/libavutil/frame.h src/libavutil/buffer.h src/libavutil/timecode.h \
-  src/libavcodec/ac3tab.h src/libavcodec/ac3.h src/libavcodec/avcodec.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
-  src/libavcodec/internal.h src/libavcodec/flac.h \
-  src/libavcodec/bytestream.h src/libavcodec/get_bits.h \
-  src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h \
-  src/libavcodec/mpegaudiodecheader.h src/libavformat/avformat.h \
-  src/libavformat/avio.h src/libavformat/version.h \
-  src/libavformat/internal.h src/libavutil/bprint.h \
-  src/libavformat/os_support.h src/libavformat/avio_internal.h \
-  src/libavformat/url.h src/libavformat/riff.h \
-  src/libavformat/metadata.h src/libavformat/isom.h \
+  src/libavutil/dovi_meta.h src/libavcodec/ac3tab.h src/libavcodec/ac3.h \
+  src/libavcodec/avcodec.h src/libavutil/hwcontext.h \
+  src/libavcodec/bsf.h src/libavcodec/codec_id.h \
+  src/libavcodec/codec_par.h src/libavcodec/packet.h \
+  src/libavcodec/version.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h src/libavcodec/internal.h \
+  src/libavcodec/flac.h src/libavcodec/bytestream.h \
+  src/libavcodec/get_bits.h src/libavcodec/mathops.h \
+  src/libavutil/reverse.h src/libavcodec/vlc.h \
+  src/libavcodec/mpegaudiodecheader.h src/libavcodec/mlp_parse.h \
+  src/libavformat/avformat.h src/libavformat/avio.h \
+  src/libavformat/version.h src/libavformat/internal.h \
+  src/libavutil/bprint.h src/libavformat/os_support.h \
+  src/libavformat/avio_internal.h src/libavformat/url.h \
+  src/libavformat/riff.h src/libavformat/metadata.h \
+  src/libavformat/isom.h src/libavutil/encryption_info.h \
   src/libavutil/mastering_display_metadata.h src/libavformat/dv.h \
   src/libavformat/id3v1.h src/libavformat/mov_chan.h \
   src/libavformat/replaygain.h src/libavformat/qtpalette.h

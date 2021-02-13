@@ -14,14 +14,17 @@ libavcodec/aacsbr_fixed.o: src/libavcodec/aacsbr_fixed.c \
   src/libavcodec/mathops.h src/libavutil/reverse.h \
   src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/fft.h \
-  src/libavcodec/mpeg4audio.h src/libavcodec/get_bits.h \
-  src/libavutil/intreadwrite.h src/libavutil/bswap.h \
-  src/libavutil/aarch64/bswap.h src/libavcodec/vlc.h \
-  src/libavcodec/internal.h src/libavcodec/put_bits.h \
-  src/libavcodec/sbr.h src/libavcodec/aacps.h src/libavcodec/aacpsdsp.h \
-  src/libavcodec/sbrdsp.h src/libavcodec/aacsbr.h \
-  src/libavcodec/aacsbrdata.h src/libavcodec/aacsbr_fixed_tablegen.h \
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/fft.h src/libavcodec/mpeg4audio.h \
+  src/libavcodec/get_bits.h src/libavutil/intreadwrite.h \
+  src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
+  src/libavcodec/vlc.h src/libavcodec/internal.h \
+  src/libavcodec/put_bits.h src/libavcodec/sbr.h src/libavcodec/aacps.h \
+  src/libavcodec/aacpsdsp.h src/libavcodec/sbrdsp.h \
+  src/libavcodec/aacsbr.h src/libavcodec/aacsbrdata.h \
+  src/libavcodec/aacsbr_fixed_tablegen.h \
   src/libavcodec/aacsbr_tablegen_common.h \
   src/libavcodec/aacsbr_template.c src/libavutil/qsort.h

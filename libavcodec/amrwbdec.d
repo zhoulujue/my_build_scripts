@@ -10,7 +10,10 @@ libavcodec/amrwbdec.o: src/libavcodec/amrwbdec.c \
   src/libavutil/cpu.h src/libavutil/dict.h src/libavutil/libm.h \
   src/libavutil/float_dsp.h src/libavutil/lfg.h src/libavcodec/avcodec.h \
   src/libavutil/samplefmt.h src/libavutil/buffer.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/lsp.h src/libavcodec/celp_filters.h \
   src/libavcodec/celp_math.h src/libavcodec/acelp_filters.h \
   src/libavcodec/acelp_vectors.h src/libavcodec/acelp_pitch_delay.h \

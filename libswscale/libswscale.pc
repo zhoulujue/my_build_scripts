@@ -5,9 +5,9 @@ includedir=/Users/lujuezhou/ffmpegbuilddir/ffmpeg-install-dir/android-arm/includ
 
 Name: libswscale
 Description: FFmpeg image rescaling library
-Version: 5.1.100
+Version: 5.7.100
 Requires: 
-Requires.private: libavutil >= 56.14.100
+Requires.private: libavutil >= 56.51.100
 Conflicts:
 Libs: -L${libdir}  -lswscale 
 Libs.private: -lm

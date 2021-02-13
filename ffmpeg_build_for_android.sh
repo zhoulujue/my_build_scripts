@@ -1,6 +1,6 @@
 #!/bin/bash
 export TMPDIR=/Users/lujuezhou/ffmpegbuilddir/temp
-NDK=/Users/lujuezhou/Library/Android/sdk/ndk/22.0.7026061
+NDK=/Users/lujuezhou/Library/Android/sdk/ndk-bundle
 # 交叉编译的根目录
 SYSROOT=$NDK/toolchains/llvm/prebuilt/darwin-x86_64/sysroot
 # 编译产物前缀
@@ -26,7 +26,6 @@ COMMON_LINKED_LIBS="-lc -lm -ldl -llog ${COMMON_LIBRARY_PATHS}"
 #TARGET_CPU="armv7-a"
 #TARGET_ARCH="armv7-a"
 #ARCH_OPTIONS="	--disable-neon --enable-asm --enable-inline-asm"
-
 # 选择C compiler，默认是gcc，Android16及以上不能使用gcc了，要用ndk提供的clang
 # clang、clang++都在ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin目录下
 #CC=$TOOLCHAINS_DIR/armv7a-linux-androideabi18-clang
@@ -105,6 +104,19 @@ ${ARCH_OPTIONS} \
 --disable-ffmpeg \
 --disable-ffplay \
 --disable-ffprobe \
+--disable-postproc \
+--disable-schannel \
+--disable-securetransport \
+--disable-xlib \
+--disable-cuda \
+--disable-cuvid \
+--disable-nvenc \
+--disable-vaapi \
+--disable-vdpau \
+--disable-videotoolbox \
+--disable-audiotoolbox \
+--disable-appkit \
+--disable-alsa \
 --disable-symver \
 --enable-small \
 --enable-gpl \
@@ -117,11 +129,11 @@ ${ARCH_OPTIONS} \
 
 
 make clean
-make -j12 1>>./build.log 2>&1
+make -j8 1>>./build.log 2>&1
 make install 1>>./build.log 2>&1
 }
 
-FFMPEG_SRC_ROOT=/Users/lujuezhou/Developer/CodeOnGithub/FFmpeg
+FFMPEG_SRC_ROOT=/Users/lujuezhou/Developer/CodeOnGithub/ffmpeg
 BUILD_OUTPUT_DIR=/Users/lujuezhou/ffmpegbuilddir/ffmpeg-install-dir/android-arm
 BUILD_OUTPUT_DIR_INCLUDE_DIR=${BUILD_OUTPUT_DIR}/include
 
@@ -135,9 +147,9 @@ mkdir -p ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/libavutil/arm
 mkdir -p ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/libavutil/aarch64
 mkdir -p ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/libavcodec/x86
 mkdir -p ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/libavcodec/arm
-#mkdir -p ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/compat
+mkdir -p ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/compat
 
-#cp -f ${FFMPEG_SRC_ROOT}/my_build_scripts/src/compat/va_copy.h ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/compat
+cp -f ${FFMPEG_SRC_ROOT}/my_build_scripts/src/compat/va_copy.h ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/compat
 cp -f ${FFMPEG_SRC_ROOT}/my_build_scripts/config.h ${BUILD_OUTPUT_DIR_INCLUDE_DIR}
 cp -f ${FFMPEG_SRC_ROOT}/my_build_scripts/src/libavcodec/mathops.h ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/libavcodec
 cp -f ${FFMPEG_SRC_ROOT}/my_build_scripts/src/libavcodec/x86/mathops.h ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/libavcodec/x86
@@ -157,7 +169,10 @@ cp -f ${FFMPEG_SRC_ROOT}/my_build_scripts/src/libavutil/aarch64/timer.h ${BUILD_
 cp -f ${FFMPEG_SRC_ROOT}/my_build_scripts/src/libavutil/x86/emms.h ${BUILD_OUTPUT_DIR_INCLUDE_DIR}/libavutil/x86
 
 
-export NDK_PROJECT_PATH=/Users/lujuezhou/AndroidStudioProjects/MyFFmpegAndroid/ffmpeg
-APPLICATION_MK=/Users/lujuezhou/AndroidStudioProjects/MyFFmpegAndroid/ffmpeg/Application.mk
-ANDROID_MK=/Users/lujuezhou/AndroidStudioProjects/MyFFmpegAndroid/ffmpeg/Android.mk
+export NDK_PROJECT_PATH=/Users/lujuezhou/Developer/CodeOnGithub/MyFFmpegAndroid/ffmpeg
+APPLICATION_MK=/Users/lujuezhou/Developer/CodeOnGithub/MyFFmpegAndroid/ffmpeg/Application.mk
+ANDROID_MK=/Users/lujuezhou/Developer/CodeOnGithub/MyFFmpegAndroid/ffmpeg/Android.mk
+
+rm -rf /Users/lujuezhou/Developer/CodeOnGithub/MyFFmpegAndroid/app/libs/arm64-v8a
 ${NDK}/ndk-build -B NDK_APPLICATION_MK=${APPLICATION_MK} APP_BUILD_SCRIPT=${ANDROID_MK} 1>>./build.log 2>&1
+cp -R $NDK_PROJECT_PATH/libs/arm64-v8a /Users/lujuezhou/Developer/CodeOnGithub/MyFFmpegAndroid/app/libs

@@ -7,9 +7,11 @@ libavcodec/parser.o: src/libavcodec/parser.c src/libavutil/avassert.h \
   src/libavutil/aarch64/timer.h src/libavutil/cpu.h src/libavutil/dict.h \
   src/libavutil/pixfmt.h src/libavutil/libm.h src/libavutil/intfloat.h \
   src/libavutil/mathematics.h src/libavutil/rational.h \
-  src/libavutil/thread.h src/libavcodec/internal.h \
-  src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/parser.h \
-  libavcodec/parser_list.c
+  src/libavcodec/internal.h src/libavutil/buffer.h \
+  src/libavutil/channel_layout.h src/libavcodec/avcodec.h \
+  src/libavutil/samplefmt.h src/libavutil/frame.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/parser.h

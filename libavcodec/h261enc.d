@@ -9,7 +9,10 @@ libavcodec/h261enc.o: src/libavcodec/h261enc.c src/libavutil/attributes.h \
   src/libavutil/rational.h src/libavcodec/avcodec.h \
   src/libavutil/samplefmt.h src/libavutil/buffer.h \
   src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/mpegutils.h src/libavcodec/mpegvideo.h \
   src/libavcodec/blockdsp.h src/libavcodec/error_resilience.h \
   src/libavcodec/me_cmp.h src/libavcodec/thread.h \

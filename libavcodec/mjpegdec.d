@@ -10,17 +10,20 @@ libavcodec/mjpegdec.o: src/libavcodec/mjpegdec.c src/libavutil/imgutils.h \
   src/libavutil/pixdesc.h src/libavutil/avassert.h src/libavutil/opt.h \
   src/libavutil/samplefmt.h src/libavcodec/avcodec.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/blockdsp.h \
-  src/libavcodec/copy_block.h src/libavutil/intreadwrite.h \
-  src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
-  src/libavcodec/hwaccel.h src/libavcodec/hwaccels.h \
-  src/libavcodec/idctdsp.h src/libavcodec/internal.h \
-  src/libavcodec/jpegtables.h src/libavcodec/mjpeg.h \
-  src/libavcodec/mjpegdec.h src/libavutil/stereo3d.h \
-  src/libavcodec/get_bits.h src/libavcodec/mathops.h \
-  src/libavutil/reverse.h src/libavcodec/vlc.h src/libavcodec/hpeldsp.h \
-  src/libavcodec/jpeglsdec.h src/libavcodec/put_bits.h \
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/blockdsp.h src/libavcodec/copy_block.h \
+  src/libavutil/intreadwrite.h src/libavutil/bswap.h \
+  src/libavutil/aarch64/bswap.h src/libavcodec/hwconfig.h \
+  src/libavcodec/hwaccels.h src/libavcodec/idctdsp.h \
+  src/libavcodec/internal.h src/libavcodec/jpegtables.h \
+  src/libavcodec/mjpeg.h src/libavcodec/mjpegdec.h \
+  src/libavutil/stereo3d.h src/libavcodec/get_bits.h \
+  src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h \
+  src/libavcodec/hpeldsp.h src/libavcodec/jpeglsdec.h \
+  src/libavcodec/profiles.h src/libavcodec/put_bits.h \
   src/libavcodec/tiff.h src/libavcodec/tiff_common.h \
   src/libavcodec/bytestream.h src/libavutil/bprint.h \
   src/libavutil/avstring.h src/libavcodec/exif.h

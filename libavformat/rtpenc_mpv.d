@@ -10,6 +10,9 @@ libavformat/rtpenc_mpv.o: src/libavformat/rtpenc_mpv.c \
   src/libavutil/internal.h src/libavutil/timer.h src/libavutil/log.h \
   src/libavutil/aarch64/timer.h src/libavutil/cpu.h src/libavutil/dict.h \
   src/libavutil/libm.h src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavformat/avformat.h \
+  src/libavcodec/bsf.h src/libavcodec/codec_id.h \
+  src/libavcodec/codec_par.h src/libavcodec/packet.h \
+  src/libavcodec/version.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h src/libavformat/avformat.h \
   src/libavformat/avio.h src/libavformat/version.h \
   src/libavformat/rtpenc.h src/libavformat/rtp.h

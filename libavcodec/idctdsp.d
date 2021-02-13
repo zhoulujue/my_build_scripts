@@ -9,8 +9,11 @@ libavcodec/idctdsp.o: src/libavcodec/idctdsp.c config.h \
   src/libavutil/cpu.h src/libavutil/dict.h src/libavutil/libm.h \
   src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/dct.h src/libavcodec/rdft.h \
-  src/libavcodec/fft.h src/libavcodec/avfft.h src/libavcodec/faanidct.h \
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/dct.h src/libavcodec/rdft.h src/libavcodec/fft.h \
+  src/libavcodec/avfft.h src/libavcodec/faanidct.h \
   src/libavcodec/idctdsp.h src/libavcodec/simple_idct.h \
   src/libavcodec/xvididct.h

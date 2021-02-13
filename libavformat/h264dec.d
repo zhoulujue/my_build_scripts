@@ -12,9 +12,12 @@ libavformat/h264dec.o: src/libavformat/h264dec.c \
   src/libavutil/aarch64/bswap.h src/libavutil/avassert.h \
   src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/mathops.h \
-  src/libavutil/reverse.h src/libavcodec/vlc.h src/libavcodec/golomb.h \
-  src/libavcodec/put_bits.h src/libavformat/avformat.h \
-  src/libavformat/avio.h src/libavformat/version.h \
-  src/libavformat/rawdec.h src/libavutil/opt.h src/libavcodec/internal.h
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h \
+  src/libavcodec/golomb.h src/libavcodec/put_bits.h \
+  src/libavformat/avformat.h src/libavformat/avio.h \
+  src/libavformat/version.h src/libavformat/rawdec.h src/libavutil/opt.h \
+  src/libavcodec/internal.h

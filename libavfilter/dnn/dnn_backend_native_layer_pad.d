@@ -10,7 +10,5 @@ libavfilter/dnn/dnn_backend_native_layer_pad.o: \
   src/libavutil/mathematics.h src/libavutil/rational.h \
   src/libavfilter/dnn/dnn_backend_native_layer_pad.h \
   src/libavfilter/dnn/dnn_backend_native.h \
-  src/libavfilter/dnn/../dnn_interface.h src/libavutil/frame.h \
-  src/libavutil/buffer.h src/libavutil/samplefmt.h \
-  src/libavfilter/dnn/../avfilter.h src/libavfilter/version.h \
-  src/libavformat/avio.h src/libavformat/version.h src/libavutil/opt.h
+  src/libavfilter/dnn/../dnn_interface.h src/libavformat/avio.h \
+  src/libavformat/version.h

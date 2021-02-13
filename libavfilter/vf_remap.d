@@ -1,5 +1,6 @@
 libavfilter/vf_remap.o: src/libavfilter/vf_remap.c \
-  src/libavutil/imgutils.h src/libavutil/avutil.h src/libavutil/common.h \
+  src/libavutil/colorspace.h src/libavutil/imgutils.h \
+  src/libavutil/avutil.h src/libavutil/common.h \
   src/libavutil/attributes.h src/libavutil/macros.h \
   src/libavutil/version.h libavutil/avconfig.h config.h \
   src/libavutil/intmath.h src/libavutil/mem.h src/libavutil/error.h \
@@ -10,10 +11,14 @@ libavfilter/vf_remap.o: src/libavfilter/vf_remap.c \
   src/libavutil/pixdesc.h src/libavutil/opt.h src/libavutil/samplefmt.h \
   src/libavfilter/avfilter.h src/libavutil/buffer.h \
   src/libavutil/frame.h src/libavfilter/version.h \
-  src/libavfilter/formats.h src/libavfilter/framesync.h \
-  src/libavfilter/bufferqueue.h src/libavutil/avassert.h \
-  src/libavfilter/internal.h src/libavfilter/framepool.h \
-  src/libavfilter/framequeue.h src/libavfilter/thread.h \
-  src/libavfilter/video.h src/libavcodec/avcodec.h \
-  src/libavutil/channel_layout.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/internal.h
+  src/libavfilter/drawutils.h src/libavfilter/formats.h \
+  src/libavfilter/framesync.h src/libavfilter/bufferqueue.h \
+  src/libavutil/avassert.h src/libavfilter/internal.h \
+  src/libavfilter/framepool.h src/libavfilter/framequeue.h \
+  src/libavfilter/thread.h src/libavfilter/video.h \
+  src/libavcodec/avcodec.h src/libavutil/channel_layout.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/internal.h

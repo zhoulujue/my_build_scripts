@@ -13,7 +13,10 @@ libavfilter/af_ashowinfo.o: src/libavfilter/af_ashowinfo.c \
   src/libavutil/intreadwrite.h src/libavutil/bswap.h \
   src/libavutil/aarch64/bswap.h src/libavutil/replaygain.h \
   src/libavutil/timestamp.h src/libavcodec/avcodec.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavfilter/audio.h src/libavfilter/avfilter.h \
   src/libavfilter/version.h src/libavfilter/internal.h \
   src/libavfilter/formats.h src/libavfilter/framepool.h \

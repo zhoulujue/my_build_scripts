@@ -8,7 +8,10 @@ libavcodec/filter_units_bsf.o: src/libavcodec/filter_units_bsf.c \
   src/libavutil/timer.h src/libavutil/aarch64/timer.h \
   src/libavutil/cpu.h src/libavutil/dict.h src/libavutil/libm.h \
   src/libavutil/opt.h src/libavutil/samplefmt.h src/libavcodec/bsf.h \
-  src/libavcodec/avcodec.h src/libavutil/buffer.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavutil/buffer.h \
+  src/libavcodec/version.h src/libavcodec/bsf_internal.h \
+  src/libavcodec/cbs.h src/libavcodec/avcodec.h \
   src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
-  src/libavcodec/cbs.h
+  src/libavutil/hwcontext.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h

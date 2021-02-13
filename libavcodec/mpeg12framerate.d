@@ -11,7 +11,10 @@ libavcodec/mpeg12framerate.o: src/libavcodec/mpeg12framerate.c \
   src/libavutil/pixfmt.h src/libavutil/libm.h src/libavutil/intfloat.h \
   src/libavutil/mathematics.h src/libavutil/buffer.h \
   src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/blockdsp.h src/libavcodec/error_resilience.h \
   src/libavcodec/me_cmp.h src/libavcodec/thread.h \
   src/libavcodec/fdctdsp.h src/libavcodec/get_bits.h \

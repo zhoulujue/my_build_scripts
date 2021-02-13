@@ -10,7 +10,10 @@ libavcodec/mpeg12enc.o: src/libavcodec/mpeg12enc.c \
   src/libavutil/opt.h src/libavutil/samplefmt.h src/libavutil/timecode.h \
   src/libavutil/stereo3d.h src/libavutil/frame.h src/libavutil/buffer.h \
   src/libavcodec/avcodec.h src/libavutil/channel_layout.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/bytestream.h src/libavutil/intreadwrite.h \
   src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
   src/libavcodec/mathops.h src/libavutil/reverse.h \
@@ -28,4 +31,5 @@ libavcodec/mpeg12enc.o: src/libavcodec/mpeg12enc.c \
   src/libavcodec/put_bits.h src/libavcodec/ratecontrol.h \
   src/libavutil/eval.h src/libavcodec/parser.h \
   src/libavcodec/mpegutils.h src/libavcodec/mpeg12data.h \
-  src/libavcodec/rl.h src/libavcodec/videodsp.h
+  src/libavcodec/rl.h src/libavcodec/videodsp.h \
+  src/libavcodec/profiles.h

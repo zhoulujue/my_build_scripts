@@ -1,12 +1,12 @@
 prefix=
 exec_prefix=
 libdir=${pcfiledir}/../../../libswresample
-includedir=/Users/lujuezhou/Developer/CodeOnGithub/FFmpeg
+includedir=src
 
 Name: libswresample
 Description: FFmpeg audio resampling library
-Version: 3.1.100
-Requires:  libavutil >= 56.14.100
+Version: 3.7.100
+Requires:  libavutil >= 56.51.100
 Conflicts:
 Libs: -L${libdir} -Wl,-rpath,${libdir} -lswresample 
 Cflags: -I${includedir}

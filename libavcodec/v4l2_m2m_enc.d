@@ -9,7 +9,11 @@ libavcodec/v4l2_m2m_enc.o: src/libavcodec/v4l2_m2m_enc.c \
   src/libavutil/pixfmt.h src/libavutil/libm.h src/libavutil/intfloat.h \
   src/libavutil/mathematics.h src/libavutil/rational.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavutil/pixdesc.h src/libavutil/opt.h \
-  src/libavcodec/v4l2_context.h src/libavcodec/v4l2_buffers.h \
-  src/libavcodec/v4l2_m2m.h
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/internal.h src/libavutil/pixdesc.h src/libavutil/opt.h \
+  src/libavcodec/profiles.h src/libavcodec/v4l2_context.h \
+  src/libavcodec/v4l2_buffers.h src/libavcodec/v4l2_m2m.h \
+  src/libavcodec/v4l2_fmt.h

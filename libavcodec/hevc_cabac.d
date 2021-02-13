@@ -15,7 +15,10 @@ libavcodec/hevc_cabac.o: src/libavcodec/hevc_cabac.c \
   src/libavcodec/hevcdec.h src/libavutil/buffer.h src/libavutil/md5.h \
   src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
   src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/bswapdsp.h src/libavcodec/get_bits.h \
   src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h \
   src/libavcodec/hevcpred.h src/libavcodec/h2645_parse.h \

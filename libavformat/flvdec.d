@@ -8,15 +8,16 @@ libavformat/flvdec.o: src/libavformat/flvdec.c src/libavutil/avstring.h \
   src/libavutil/aarch64/timer.h src/libavutil/cpu.h \
   src/libavutil/pixfmt.h src/libavutil/libm.h src/libavutil/intfloat.h \
   src/libavutil/mathematics.h src/libavutil/samplefmt.h \
-  src/libavcodec/bytestream.h src/libavutil/avassert.h \
-  src/libavutil/intreadwrite.h src/libavutil/bswap.h \
-  src/libavutil/aarch64/bswap.h src/libavcodec/mpeg4audio.h \
-  src/libavcodec/get_bits.h src/libavcodec/avcodec.h \
+  src/libavutil/time_internal.h src/libavcodec/bytestream.h \
+  src/libavutil/avassert.h src/libavutil/intreadwrite.h \
+  src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
+  src/libavformat/avformat.h src/libavcodec/avcodec.h \
   src/libavutil/buffer.h src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/mathops.h \
-  src/libavutil/reverse.h src/libavcodec/vlc.h src/libavcodec/internal.h \
-  src/libavcodec/put_bits.h src/libavformat/avformat.h \
-  src/libavformat/avio.h src/libavformat/version.h \
-  src/libavformat/internal.h src/libavutil/bprint.h \
-  src/libavformat/os_support.h src/libavformat/avio_internal.h \
-  src/libavformat/url.h src/libavformat/flv.h
+  src/libavcodec/bsf.h src/libavcodec/codec_id.h \
+  src/libavcodec/codec_par.h src/libavcodec/packet.h \
+  src/libavcodec/version.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h src/libavformat/avio.h \
+  src/libavformat/version.h src/libavformat/internal.h \
+  src/libavutil/bprint.h src/libavformat/os_support.h \
+  src/libavformat/avio_internal.h src/libavformat/url.h \
+  src/libavformat/flv.h

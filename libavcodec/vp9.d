@@ -9,16 +9,20 @@ libavcodec/vp9.o: src/libavcodec/vp9.c src/libavcodec/avcodec.h \
   src/libavutil/intfloat.h src/libavutil/mathematics.h \
   src/libavutil/rational.h src/libavutil/buffer.h \
   src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
+  src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
   src/libavcodec/get_bits.h src/libavutil/intreadwrite.h \
   src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
   src/libavutil/avassert.h src/libavcodec/mathops.h \
-  src/libavutil/reverse.h src/libavcodec/vlc.h src/libavcodec/hwaccel.h \
+  src/libavutil/reverse.h src/libavcodec/vlc.h src/libavcodec/hwconfig.h \
   src/libavcodec/hwaccels.h src/libavcodec/internal.h \
-  src/libavcodec/profiles.h src/libavcodec/thread.h \
+  src/libavcodec/profiles.h src/libavutil/opt.h src/libavcodec/thread.h \
   src/libavcodec/videodsp.h src/libavcodec/vp56.h \
   src/libavcodec/hpeldsp.h src/libavcodec/bytestream.h \
   src/libavcodec/h264chroma.h src/libavcodec/vp3dsp.h \
   src/libavcodec/vp56dsp.h src/libavcodec/vp9.h src/libavcodec/vp9data.h \
   src/libavcodec/vp9dec.h src/libavutil/thread.h src/libavcodec/vp9dsp.h \
-  src/libavcodec/vp9shared.h src/libavutil/pixdesc.h
+  src/libavcodec/vp9shared.h src/libavutil/pixdesc.h \
+  src/libavutil/video_enc_params.h

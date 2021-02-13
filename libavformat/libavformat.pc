@@ -5,9 +5,9 @@ includedir=/Users/lujuezhou/ffmpegbuilddir/ffmpeg-install-dir/android-arm/includ
 
 Name: libavformat
 Description: FFmpeg container format library
-Version: 58.12.100
+Version: 58.45.100
 Requires: 
-Requires.private: libavcodec >= 58.18.100, libswresample >= 3.1.100, libavutil >= 56.14.100
+Requires.private: libavcodec >= 58.91.100, libswresample >= 3.7.100, libavutil >= 56.51.100
 Conflicts:
 Libs: -L${libdir}  -lavformat 
 Libs.private: -lm -lz

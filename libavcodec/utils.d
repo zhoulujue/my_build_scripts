@@ -12,9 +12,12 @@ libavcodec/utils.o: src/libavcodec/utils.c config.h \
   src/libavutil/frame.h src/libavutil/buffer.h src/libavutil/samplefmt.h \
   src/libavutil/hwcontext.h src/libavutil/mem_internal.h \
   src/libavutil/pixdesc.h src/libavutil/imgutils.h \
-  src/libavutil/thread.h src/libavcodec/avcodec.h \
-  src/libavcodec/version.h src/libavcodec/decode.h \
-  src/libavcodec/hwaccel.h src/libavcodec/hwaccels.h src/libavutil/opt.h \
+  src/libavutil/thread.h src/libavcodec/avcodec.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/decode.h src/libavcodec/hwconfig.h \
+  src/libavcodec/hwaccels.h src/libavutil/opt.h \
   src/libavcodec/mpegvideo.h src/libavcodec/blockdsp.h \
   src/libavcodec/error_resilience.h src/libavcodec/me_cmp.h \
   src/libavcodec/thread.h src/libavcodec/fdctdsp.h \

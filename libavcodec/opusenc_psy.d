@@ -11,7 +11,10 @@ libavcodec/opusenc_psy.o: src/libavcodec/opusenc_psy.c \
   src/libavutil/internal.h src/libavutil/timer.h src/libavutil/log.h \
   src/libavutil/aarch64/timer.h src/libavutil/cpu.h src/libavutil/dict.h \
   src/libavutil/libm.h src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/opus_celt.h \
+  src/libavcodec/bsf.h src/libavcodec/codec_id.h \
+  src/libavcodec/codec_par.h src/libavcodec/packet.h \
+  src/libavcodec/version.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h src/libavcodec/opus_celt.h \
   src/libavcodec/opus.h src/libavutil/audio_fifo.h src/libavutil/fifo.h \
   src/libavutil/float_dsp.h src/libswresample/swresample.h \
   src/libswresample/version.h src/libavcodec/opus_rc.h \
@@ -19,8 +22,8 @@ libavcodec/opusenc_psy.o: src/libavcodec/opusenc_psy.c \
   src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
   src/libavutil/avassert.h src/libavcodec/mathops.h \
   src/libavutil/reverse.h src/libavcodec/vlc.h src/libavcodec/opus_pvq.h \
-  src/libavcodec/mdct15.h src/libavcodec/fft.h src/libavcodec/avfft.h \
-  src/libavfilter/bufferqueue.h src/libavfilter/avfilter.h \
-  src/libavfilter/version.h src/libavcodec/opusenc_utils.h \
-  src/libavfilter/window_func.h src/libavcodec/opustab.h \
-  src/libavutil/qsort.h
+  src/libavcodec/opusdsp.h src/libavcodec/mdct15.h src/libavcodec/fft.h \
+  src/libavcodec/avfft.h src/libavfilter/bufferqueue.h \
+  src/libavfilter/avfilter.h src/libavfilter/version.h \
+  src/libavcodec/opusenc_utils.h src/libavfilter/window_func.h \
+  src/libavcodec/opustab.h src/libavutil/qsort.h

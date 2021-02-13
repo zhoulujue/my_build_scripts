@@ -5,9 +5,9 @@ includedir=/Users/lujuezhou/ffmpegbuilddir/ffmpeg-install-dir/android-arm/includ
 
 Name: libswresample
 Description: FFmpeg audio resampling library
-Version: 3.1.100
+Version: 3.7.100
 Requires: 
-Requires.private: libavutil >= 56.14.100
+Requires.private: libavutil >= 56.51.100
 Conflicts:
 Libs: -L${libdir}  -lswresample 
 Libs.private: -lm

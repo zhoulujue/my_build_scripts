@@ -9,15 +9,17 @@ libavcodec/intrax8.o: src/libavcodec/intrax8.c src/libavutil/avassert.h \
   src/libavutil/mathematics.h src/libavutil/rational.h \
   src/libavcodec/avcodec.h src/libavutil/samplefmt.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/get_bits.h \
-  src/libavutil/intreadwrite.h src/libavutil/bswap.h \
-  src/libavutil/aarch64/bswap.h src/libavcodec/mathops.h \
-  src/libavutil/reverse.h src/libavcodec/vlc.h src/libavcodec/idctdsp.h \
-  src/libavcodec/msmpeg4data.h src/libavcodec/rl.h \
-  src/libavcodec/intrax8huf.h src/libavcodec/intrax8.h \
-  src/libavcodec/blockdsp.h src/libavcodec/intrax8dsp.h \
-  src/libavcodec/wmv2dsp.h src/libavcodec/qpeldsp.h \
-  src/libavcodec/mpegpicture.h src/libavcodec/motion_est.h \
-  src/libavcodec/hpeldsp.h src/libavcodec/thread.h \
-  src/libavcodec/mpegutils.h
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/get_bits.h src/libavutil/intreadwrite.h \
+  src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
+  src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h \
+  src/libavcodec/idctdsp.h src/libavcodec/msmpeg4data.h \
+  src/libavcodec/rl.h src/libavcodec/intrax8huf.h \
+  src/libavcodec/intrax8.h src/libavcodec/blockdsp.h \
+  src/libavcodec/intrax8dsp.h src/libavcodec/wmv2dsp.h \
+  src/libavcodec/qpeldsp.h src/libavcodec/mpegpicture.h \
+  src/libavcodec/motion_est.h src/libavcodec/hpeldsp.h \
+  src/libavcodec/thread.h src/libavcodec/mpegutils.h

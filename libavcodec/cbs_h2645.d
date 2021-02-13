@@ -11,13 +11,15 @@ libavcodec/cbs_h2645.o: src/libavcodec/cbs_h2645.c \
   src/libavutil/bswap.h src/libavutil/aarch64/bswap.h \
   src/libavcodec/cbs.h src/libavutil/buffer.h src/libavcodec/avcodec.h \
   src/libavutil/samplefmt.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavcodec/cbs_internal.h \
-  src/libavcodec/get_bits.h src/libavcodec/mathops.h \
-  src/libavutil/reverse.h src/libavcodec/vlc.h src/libavcodec/put_bits.h \
-  src/libavcodec/cbs_h264.h src/libavcodec/cbs_h2645.h \
-  src/libavcodec/h2645_parse.h src/libavcodec/h264.h \
-  src/libavcodec/cbs_h265.h src/libavcodec/hevc.h \
-  src/libavcodec/golomb.h src/libavcodec/h264_sei.h \
-  src/libavcodec/cbs_h264_syntax_template.c \
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavcodec/cbs_internal.h src/libavcodec/get_bits.h \
+  src/libavcodec/mathops.h src/libavutil/reverse.h src/libavcodec/vlc.h \
+  src/libavcodec/put_bits.h src/libavcodec/cbs_h264.h \
+  src/libavcodec/cbs_h2645.h src/libavcodec/h2645_parse.h \
+  src/libavcodec/h264.h src/libavcodec/cbs_h265.h src/libavcodec/hevc.h \
+  src/libavcodec/h264_sei.h src/libavcodec/h264_ps.h \
+  src/libavcodec/hevc_sei.h src/libavcodec/cbs_h264_syntax_template.c \
   src/libavcodec/cbs_h265_syntax_template.c

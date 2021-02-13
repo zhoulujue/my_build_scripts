@@ -9,9 +9,12 @@ libavcodec/mp3_header_decompress_bsf.o: \
   src/libavutil/timer.h src/libavutil/aarch64/timer.h \
   src/libavutil/cpu.h src/libavutil/dict.h src/libavutil/libm.h \
   src/libavutil/intreadwrite.h src/libavutil/bswap.h \
-  src/libavutil/aarch64/bswap.h src/libavcodec/avcodec.h \
-  src/libavutil/samplefmt.h src/libavutil/buffer.h \
-  src/libavutil/channel_layout.h src/libavutil/frame.h \
-  src/libavutil/hwcontext.h src/libavcodec/version.h \
-  src/libavcodec/bsf.h src/libavcodec/mpegaudiodecheader.h \
-  src/libavcodec/mpegaudiodata.h src/libavcodec/internal.h
+  src/libavutil/aarch64/bswap.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavutil/buffer.h \
+  src/libavcodec/version.h src/libavcodec/bsf_internal.h \
+  src/libavcodec/mpegaudiodecheader.h src/libavcodec/avcodec.h \
+  src/libavutil/samplefmt.h src/libavutil/channel_layout.h \
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/codec.h \
+  src/libavcodec/codec_desc.h src/libavcodec/mpegaudiodata.h \
+  src/libavcodec/internal.h

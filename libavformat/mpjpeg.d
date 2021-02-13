@@ -9,6 +9,8 @@ libavformat/mpjpeg.o: src/libavformat/mpjpeg.c src/libavutil/opt.h \
   src/libavutil/mathematics.h src/libavutil/samplefmt.h \
   src/libavformat/avformat.h src/libavcodec/avcodec.h \
   src/libavutil/buffer.h src/libavutil/channel_layout.h \
-  src/libavutil/frame.h src/libavutil/hwcontext.h \
-  src/libavcodec/version.h src/libavformat/avio.h \
-  src/libavformat/version.h
+  src/libavutil/frame.h src/libavutil/hwcontext.h src/libavcodec/bsf.h \
+  src/libavcodec/codec_id.h src/libavcodec/codec_par.h \
+  src/libavcodec/packet.h src/libavcodec/version.h \
+  src/libavcodec/codec.h src/libavcodec/codec_desc.h \
+  src/libavformat/avio.h src/libavformat/version.h
